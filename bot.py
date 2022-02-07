@@ -6,6 +6,7 @@ from diction import get_info
 
 telegram_bot_token = '2016260844:AAGwWwI6ZLA7cLUNNcAbbFz2W84wkJebZyo'
 
+
 updater = Updater(token=telegram_bot_token, use_context=True)
 dispatcher = updater.dispatcher
 
